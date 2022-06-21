@@ -26,3 +26,6 @@ TARGET_KERNEL_CONFIG := exynos8895-dream2lte_defconfig
 
 # inherit from the proprietary version
 -include vendor/samsung/dream2lte/BoardConfigVendor.mk
+
+# Sepolicy
+SELINUX_IGNORE_NEVERALLOWS := true
